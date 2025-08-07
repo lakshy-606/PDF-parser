@@ -1,0 +1,107 @@
+[PAGE: 1] [TYPE: Title]
+MARYLAND FORM RESIDENT INCOME TAX RETURN
+
+[PAGE: 1] [TYPE: Table]
+Your First Name MI Your Last Name Does your name match the card? If not, to ensure you Spouse's First Name MI get credit for your personal exemptions, contact SSA at 1-800-772-1213 or visit www.ssa.gov. Spouse's Last Name
+
+[PAGE: 1] [TYPE: NarrativeText]
+State ZIP Code + 4
+
+[PAGE: 1] [TYPE: NarrativeText]
+Foreign Province/State/County
+
+[PAGE: 1] [TYPE: NarrativeText]
+REQUIRED: Maryland Physical address of taxing area as of December 31, 2022 or last day of the taxable year for fiscal year taxpayers. See Instruction 6. Part-year residents see Instruction 26.
+
+[PAGE: 1] [TYPE: Table]
+City MD State ZIP Code + 4 Maryland County FILING 1. Single (If you can be claimed on another person’s tax return, use Filing Status 6.) STATUS CHECK ONE 2. Married filing joint return or spouse had no income BOX See Instruction 1 if you are 3. Married filing separately, Spouse SSN required to file. 4. Head of household 5. Qualifying widow(er) with dependent child 6. Dependent taxpayer (Enter 0 in Exemption Box (A) - See Instruction 7.) PART-YEAR Dates of Maryland Residence (MM DD YYYY) FROM TO RESIDENT Other state of residence: See Instruction If you began or ended legal residence in Maryland in 2022 place a P in the box. . . . . . . . . . . . . . . . . 26. MILITARY: If you or your spouse has non-Maryland military income, place an M in the box. . . . . . . Enter Military Income amount here:
+
+[PAGE: 1] [TYPE: NarrativeText]
+COM/RAD-009
+
+[PAGE: 2] [TYPE: Table]
+EXEMPTIONS See Instruction 10. Check appropriate box(es). NOTE: If you are claiming dependents, you must attach the Dependents' Information Form 502B to this form to receive the applicable exemption amount. MARYLAND HEALTH CARE COVERAGE See Instruction 3. SSN A. Yourself Spouse . . . . . Enter number checked See Instruction 10 A. $ B. 65 or over 65 or over Blind Blind . . . . . . . Enter number checked X $1,000 . . . . . . . . .B. $ C. Enter number from line 3 of Dependent Form 502B . . . . . . . . See Instruction 10 C. $ D. Enter Total Exemptions (Add A, B and C.) . . . . . . . . . . . . Total Amount . . . .D. $ Check here If you do not have health care coverage DOB (mm/dd/yyyy) Check here If your spouse does not have health care coverage DOB (mm/dd/yyyy) I authorize the Comptroller of Maryland to share information from this tax return with the Check here Maryland _Health_Benefit_Exchange_for_the_purpose_of_determining_pre-eligibility_for_no-cost_or_low-cost__ health care coverage. E-mail address 1. Adjusted gross income from your federal return . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1. 1a. Wages, salaries and/or tips. . . . . . . . . . . . . . . . . . . . . . 1b. Earned income. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1a. 1b. .00 .00 1c. Capital Gain or (loss) . . . . . . . . . . . . . . . . . . . . . . . . . . 1c. .00 1d. Taxable Pensions, IRAs, Annuities (Attach Form 502R.) 1d. .00 1e. Place a "Y" in this box if the amount of your investment income is more than $10,300 . . 2. Tax-exempt interest on state and local obligations (bonds) other than Maryland . . . . . . . . . 2. 3. State retirement pickup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3. 4. Lump sum distributions (from worksheet in Instruction 12.) . . . . . . . . . . . . . . . . . . . . . . . 4. 5. Other additions (Enter code letter(s) from Instruction 12.) . . . . . 5. 6. Total additions (Add lines 2 through 5. See instructions.) . . . . . . . . . . . . . . . . . . . . . . . . 6. 7. Total federal adjusted gross income and Maryland additions (Add lines 1 and 6.) . . . . . . . . . . . 7. 8. Taxable refunds, credits or offsets of state and local income taxes included in line 1 . . . . . . 8. 9. Child and dependent care expenses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9. 10a. Pension exclusion from worksheet (13A) . . . . . . . Yourself Spouse . . 10a. 10b. Pension exclusion from worksheet (13E) . . . . . . . . Yourself Spouse . . 10b. 11. Taxable Social Security and RR benefits (Tier I, II and supplemental) included in line 1 . . . . 11. .00 .00 .00 .00 .00
+
+[PAGE: 3] [TYPE: Title]
+MARYLAND RESIDENT INCOME FORM TAX RETURN
+
+[PAGE: 3] [TYPE: NarrativeText]
+NAME
+
+[PAGE: 3] [TYPE: Table]
+MARYLAND TAX COMPUTATION LOCAL TAX COMPUTATION CONTRIBUTIONS See Instruction 20. REFUND AMOUNT DUE 21. Maryland tax (from Tax Table or Computation Worksheet Schedules I or II) . . . . . . . . . . . . 21. 22. Earned income credit (EIC) (See Instruction 18.) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22. Check this box if you are claiming the Maryland Earned Income Credit, but do not qualify for the federal Earned Income Credit. Check this box if you are claiming the Maryland Earned Income Credit with a qualifying child. 23. Poverty level credit (See Instruction 18.). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23. 24. Other income tax credits for individuals from Part AA, line 14 of Form 502CR (Attach Form 502CR.) 24. 25. Business tax credits . . . . . . . .You must file this form electronically to claim business tax credits on Form 500CR. 26. Total credits (Add lines 22 through 25.). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26. 27. Maryland tax after credits (Subtract line 26 from line 21.) If less than 0, enter 0. . . . . . . . . . 27. 28. Local tax (See Instruction 19 for tax rates and worksheet.) Multiply line 20 by your local tax rate .0 or use the Local Tax Worksheet . . . . . . . . . . . . . . . . . . . . . 28. 29. Local earned income credit (from Local Earned Income Credit Worksheet in Instruction 19.) . . 29. 30. Local poverty level credit (from Local Poverty Level Credit Worksheet in Instruction 19.) . . . . 30. 31. Local tax credit from Part BB, line 1 of Form 502CR (Attach Form 502CR.) . . . . . . . . . . . . . 31. 32. Total credits (Add lines 29 through 31.) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32. 33. Local tax after credits (Subtract line 32 from line 28.) If less than 0, enter 0 . . . . . . . . . . . . 33. 34. Total Maryland and local tax (Add lines 27 and 33.) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34. 35. Contribution to Chesapeake Bay and Endangered Species Fund . . . . . . . . . . 35. .00 36. Contribution to Developmental Disabilities Services and Support Fund . . . . . 36. .00 37. Contribution to Maryland Cancer Fund . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37. .00 38. Contribution to Fair Campaign Financing Fund . . . . . . . . . . . . . . . . . . . . . . 38. .00 39. Total Maryland income tax, local income tax and contributions (Add lines 34 through 38.) . 39. 40. Total Maryland and local tax withheld (Enter total from your W-2 and 1099 forms and attach if MD tax is withheld.) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40. 41. 2022 estimated tax payments, amount applied from 2021 return, payment made with an extension request, and Form MW506NRS . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41. 42. Refundable earned income credit (from worksheet in Instruction 21) . . . . . . . . . . . . . . . . 42. 43. Refundable income tax credits from Part CC, line 10 of Form 502CR (Attach Form 502CR and/or Schedule K-1 (Forms 510/511), if applicable. See Instruction 21.) 43. 44. Total payments and credits (Add lines 40 through 43.) . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44. 45. Balance due (If line 39 is more than line 44, subtract line 44 from line 39. See Instruction 22.) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45. 46. Overpayment (If line 39 is less than line 44, subtract line 39 from line 44.). . . . . . . . . . . . 46. 47. Amount of overpayment TO BE APPLIED TO 2023 ESTIMATED TAX. . . . . . . . . . . . . 47. 48. Amount of overpayment TO BE REFUNDED TO YOU (Subtract line 47 from line 46.) See line 51 . . . . . . . . . . . . . . . . . . . . . . . . . . . REFUND 48. 49. Check here if you are attaching Form 502UP. Enter interest charges from line 18, or for late filing or homebuyer withdrawal penalty 49. 50. TOTAL AMOUNT DUE (Add lines 45 and 49.) IF $1 OR MORE, PAY IN FULL WITH THIS RETURN. INCLUDE FORM PV. . . . . . . . . . . 50. .00 .00 .00 .00 .00 .00 .00 .00 .00 .00 .00 .00 .00 .00
+
+[PAGE: 3] [TYPE: NarrativeText]
+COM/RAD-009
+
+[PAGE: 4] [TYPE: NarrativeText]
+NAME
+
+[PAGE: 4] [TYPE: NarrativeText]
+DIRECT DEPOSIT OF REFUND (See Instruction 22.) Verify that all account information is correct and clearly legible. If you are requesting direct deposit of your refund, complete the following. For Splitting Direct Deposit, use Form 588.
+
+[PAGE: 4] [TYPE: ListItem]
+Check here if you authorize the State of Maryland to issue your refund by direct deposit.
+
+[PAGE: 4] [TYPE: ListItem]
+Check here if this refund will go to an account outside of the United States.
+
+[PAGE: 4] [TYPE: NarrativeText]
+51a. Type of account: Checking Savings 51b. Routing Number (9-digits)
+
+[PAGE: 4] [TYPE: NarrativeText]
+51d. Name(s) as it appears on the bank account
+
+[PAGE: 4] [TYPE: NarrativeText]
+CODE NUMBERS (3 digits per line)
+
+[PAGE: 4] [TYPE: NarrativeText]
+Check here if you authorize your preparer to discuss this return with us. Check here if you authorize your paid preparer
+
+[PAGE: 4] [TYPE: NarrativeText]
+not to file electronically. Check here if you agree to receive your 1099G Income Tax Refund statement electronically (See Instruction 24.)
+
+[PAGE: 4] [TYPE: NarrativeText]
+Under penalties of perjury, I declare that I have examined this return, including accompanying schedules and statements and to the best of my knowledge and belief it is true, correct and complete. If prepared by a person other than taxpayer, the declaration is based on all information of which the preparer has any knowledge.
+
+[PAGE: 4] [TYPE: NarrativeText]
+Your signature
+
+[PAGE: 4] [TYPE: NarrativeText]
+Date
+
+[PAGE: 4] [TYPE: NarrativeText]
+Date
+
+[PAGE: 4] [TYPE: NarrativeText]
+Printed name of the Preparer / or Firm's name
+
+[PAGE: 4] [TYPE: NarrativeText]
+Street address of preparer or Firm's address
+
+[PAGE: 4] [TYPE: NarrativeText]
+Signature of preparer other than taxpayer (Required by Law)
+
+[PAGE: 4] [TYPE: NarrativeText]
+City, State, ZIP Code + 4
+
+[PAGE: 4] [TYPE: NarrativeText]
+Telephone number of preparer
+
+[PAGE: 4] [TYPE: Title]
+For returns filed without payments, mail your completed return to:
+
+[PAGE: 4] [TYPE: NarrativeText]
+To make an online payment, scan the QR code below and follow instructions.
+
+[PAGE: 4] [TYPE: NarrativeText]
+Comptroller of Maryland Revenue Administration Division 110 Carroll Street Annapolis, MD 21411-0001
+
+[PAGE: 4] [TYPE: NarrativeText]
+For returns filed with payments, attach check or money order to Form PV. Make checks payable to Comptroller of Maryland. Do not attach Form PV or check/money order to Form 502. Place Form PV with attached check/money order on TOP of Form 502 and
+
+[PAGE: 4] [TYPE: NarrativeText]
+Comptroller of Maryland Payment Processing PO Box 8888 Annapolis, MD 21401-8888
+
+[PAGE: 4] [TYPE: NarrativeText]
+COM/RAD-009
