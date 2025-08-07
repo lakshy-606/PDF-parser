@@ -1,0 +1,21 @@
+Installation Instructions
+Windows Installation
+Poppler for Windows
+Download: Get Poppler from poppler-windows
+
+Extract: Unzip to C:\poppler (or your preferred location)
+
+Add to PATH: Add C:\poppler\Library\bin to your system PATH
+
+Verify: Open Command Prompt and run pdftoppm -h
+
+Alternative (using Chocolatey):
+
+powershell
+choco install poppler
+Tesseract OCR for Windows
+Download: Get installer from UB Mannheim Tesseract
+
+Install: Run the installer (typically installs to C:\Program Files\Tesseract-OCR)
+
+Add to PATH: Add installation direct
