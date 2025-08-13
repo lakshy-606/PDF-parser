@@ -1,0 +1,70 @@
+package tax.rules
+
+import com.example.MarylandForm502;
+
+rule "Calculate Line 28 - Local Tax Based on County"
+when
+    $form : MarylandForm502(
+        line20TaxableNetIncome >= 0,
+        addresses.marylandPhysical.county != null
+    )
+then
+    String county = $form.addresses.marylandPhysical.county.trim().toLowerCase();
+    double income = $form.line20TaxableNetIncome;
+    int status = $form.filingStatus;
+    double rate = 0.0225; // default nonresident
+
+    // Static rates
+    if (county.equals("baltimore city") || county.equals("baltimore county") || county.equals("caroline county") ||
+        county.equals("dorchester county") || county.equals("howard county") || county.equals("kent county") ||
+        county.equals("montgomery county") || county.equals("prince george’s county") || county.equals("queen anne’s county") ||
+        county.equals("somerset county") || county.equals("wicomico county")) {
+        rate = 0.0320;
+    } else if (county.equals("allegany county") || county.equals("carroll county") || county.equals("charles county")) {
+        rate = 0.0303;
+    } else if (county.equals("cecil county")) {
+        rate = 0.0275;
+    } else if (county.equals("garrett county")) {
+        rate = 0.0265;
+    } else if (county.equals("harford county")) {
+        rate = 0.0306;
+    } else if (county.equals("calvert county") || county.equals("st. mary’s county")) {
+        rate = 0.0300;
+    } else if (county.equals("talbot county")) {
+        rate = 0.0240;
+    } else if (county.equals("washington county")) {
+        rate = 0.0295;
+    } else if (county.equals("worcester county")) {
+        rate = 0.0225;
+    }
+
+    // Special handling: Anne Arundel County
+    else if (county.equals("anne arundel county")) {
+        if (status == 1 || status == 3 || status == 6) {
+            rate = (income <= 50000) ? 0.0270 : 0.0281;
+        } else {
+            if (income <= 75000) rate = 0.0270;
+            else if (income <= 480000) rate = 0.0281;
+            else rate = 0.0320;
+        }
+    }
+
+    // Special handling: Frederick County
+    else if (county.equals("frederick county")) {
+        if (status == 1 || status == 3 || status == 6) {
+            if (income <= 25000) rate = 0.0225;
+            else if (income <= 100000) rate = 0.0275;
+            else if (income <= 250000) rate = 0.0295;
+            else rate = 0.0320;
+        } else {
+            if (income <= 50000) rate = 0.0225;
+            else if (income <= 200000) rate = 0.0275;
+            else if (income <= 350000) rate = 0.0295;
+            else rate = 0.0320;
+        }
+    }
+
+    // Calculate local tax
+    $form.line28 = income * rate;
+    update($form);
+end
