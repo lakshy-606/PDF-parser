@@ -1,0 +1,152 @@
+```drl
+package com.marylandtax.rules;
+
+import com.marylandtax.form.MarylandForm502;
+
+rule "Calculate Line 21 - Maryland Tax"
+when
+    $form : MarylandForm502(
+        $taxableNetIncome : taxableNetIncome
+    )
+then
+    double tax = 0.0;
+
+    // Maryland Tax Table Logic
+    if ($taxableNetIncome >= 0 && $taxableNetIncome < 50) {
+        tax = 0.0;
+    } else if ($taxableNetIncome >= 50 && $taxableNetIncome < 75) {
+        tax = 1.0;
+    } else if ($taxableNetIncome >= 75 && $taxableNetIncome < 100) {
+        tax = 2.0;
+    } else if ($taxableNetIncome >= 100 && $taxableNetIncome < 150) {
+        tax = 3.0;
+    } else if ($taxableNetIncome >= 150 && $taxableNetIncome < 200) {
+        tax = 4.0;
+    } else if ($taxableNetIncome >= 200 && $taxableNetIncome < 250) {
+        tax = 5.0;
+    } else if ($taxableNetIncome >= 250 && $taxableNetIncome < 300) {
+        tax = 6.0;
+    } else if ($taxableNetIncome >= 300 && $taxableNetIncome < 350) {
+        tax = 7.0;
+    } else if ($taxableNetIncome >= 350 && $taxableNetIncome < 400) {
+        tax = 8.0;
+    } else if ($taxableNetIncome >= 400 && $taxableNetIncome < 450) {
+        tax = 9.0;
+    } else if ($taxableNetIncome >= 450 && $taxableNetIncome < 500) {
+        tax = 10.0;
+    } else if ($taxableNetIncome >= 500 && $taxableNetIncome < 550) {
+        tax = 11.0;
+    } else if ($taxableNetIncome >= 550 && $taxableNetIncome < 600) {
+        tax = 12.0;
+    } else if ($taxableNetIncome >= 600 && $taxableNetIncome < 650) {
+        tax = 13.0;
+    } else if ($taxableNetIncome >= 650 && $taxableNetIncome < 700) {
+        tax = 14.0;
+    } else if ($taxableNetIncome >= 700 && $taxableNetIncome < 750) {
+        tax = 15.0;
+    } else if ($taxableNetIncome >= 750 && $taxableNetIncome < 800) {
+        tax = 16.0;
+    } else if ($taxableNetIncome >= 800 && $taxableNetIncome < 850) {
+        tax = 17.0;
+    } else if ($taxableNetIncome >= 850 && $taxableNetIncome < 900) {
+        tax = 18.0;
+    } else if ($taxableNetIncome >= 900 && $taxableNetIncome < 950) {
+        tax = 19.0;
+    } else if ($taxableNetIncome >= 950 && $taxableNetIncome < 1000) {
+        tax = 20.0;
+    } else if ($taxableNetIncome >= 1000 && $taxableNetIncome < 1050) {
+        tax = 21.0;
+    } else if ($taxableNetIncome >= 1050 && $taxableNetIncome < 1100) {
+        tax = 22.0;
+    } else if ($taxableNetIncome >= 1100 && $taxableNetIncome < 1150) {
+        tax = 24.0;
+    } else if ($taxableNetIncome >= 1150 && $taxableNetIncome < 1200) {
+        tax = 25.0;
+    } else if ($taxableNetIncome >= 1200 && $taxableNetIncome < 1250) {
+        tax = 27.0;
+    } else if ($taxableNetIncome >= 1250 && $taxableNetIncome < 1300) {
+        tax = 28.0;
+    } else if ($taxableNetIncome >= 1300 && $taxableNetIncome < 1350) {
+        tax = 30.0;
+    } else if ($taxableNetIncome >= 1350 && $taxableNetIncome < 1400) {
+        tax = 31.0;
+    } else if ($taxableNetIncome >= 1400 && $taxableNetIncome < 1450) {
+        tax = 33.0;
+    } else if ($taxableNetIncome >= 1450 && $taxableNetIncome < 1500) {
+        tax = 34.0;
+    } else if ($taxableNetIncome >= 1500 && $taxableNetIncome < 1550) {
+        tax = 36.0;
+    } else if ($taxableNetIncome >= 1550 && $taxableNetIncome < 1600) {
+        tax = 37.0;
+    } else if ($taxableNetIncome >= 1600 && $taxableNetIncome < 1650) {
+        tax = 39.0;
+    } else if ($taxableNetIncome >= 1650 && $taxableNetIncome < 1700) {
+        tax = 40.0;
+    } else if ($taxableNetIncome >= 1700 && $taxableNetIncome < 1750) {
+        tax = 42.0;
+    } else if ($taxableNetIncome >= 1750 && $taxableNetIncome < 1800) {
+        tax = 43.0;
+    } else if ($taxableNetIncome >= 1800 && $taxableNetIncome < 1850) {
+        tax = 45.0;
+    } else if ($taxableNetIncome >= 1850 && $taxableNetIncome < 1900) {
+        tax = 46.0;
+    } else if ($taxableNetIncome >= 1900 && $taxableNetIncome < 1950) {
+        tax = 48.0;
+    } else if ($taxableNetIncome >= 1950 && $taxableNetIncome < 2000) {
+        tax = 49.0;
+    } else if ($taxableNetIncome >= 2000 && $taxableNetIncome < 2050) {
+        tax = 51.0;
+    } else if ($taxableNetIncome >= 2050 && $taxableNetIncome < 2100) {
+        tax = 53.0;
+    } else if ($taxableNetIncome >= 2100 && $taxableNetIncome < 2150) {
+        tax = 55.0;
+    } else if ($taxableNetIncome >= 2150 && $taxableNetIncome < 2200) {
+        tax = 57.0;
+    } else if ($taxableNetIncome >= 2200 && $taxableNetIncome < 2250) {
+        tax = 59.0;
+    } else if ($taxableNetIncome >= 2250 && $taxableNetIncome < 2300) {
+        tax = 61.0;
+    } else if ($taxableNetIncome >= 2300 && $taxableNetIncome < 2350) {
+        tax = 63.0;
+    } else if ($taxableNetIncome >= 2350 && $taxableNetIncome < 2400) {
+        tax = 65.0;
+    } else if ($taxableNetIncome >= 2400 && $taxableNetIncome < 2450) {
+        tax = 67.0;
+    } else if ($taxableNetIncome >= 2450 && $taxableNetIncome < 2500) {
+        tax = 69.0;
+    } else if ($taxableNetIncome >= 2500 && $taxableNetIncome < 2550) {
+        tax = 71.0;
+    } else if ($taxableNetIncome >= 2550 && $taxableNetIncome < 2600) {
+        tax = 73.0;
+    } else if ($taxableNetIncome >= 2600 && $taxableNetIncome < 2650) {
+        tax = 75.0;
+    } else if ($taxableNetIncome >= 2650 && $taxableNetIncome < 2700) {
+        tax = 77.0;
+    } else if ($taxableNetIncome >= 2700 && $taxableNetIncome < 2750) {
+        tax = 79.0;
+    } else if ($taxableNetIncome >= 2750 && $taxableNetIncome < 2800) {
+        tax = 81.0;
+    } else if ($taxableNetIncome >= 2800 && $taxableNetIncome < 2850) {
+        tax = 83.0;
+    } else if ($taxableNetIncome >= 2850 && $taxableNetIncome < 2900) {
+        tax = 85.0;
+    } else if ($taxableNetIncome >= 2900 && $taxableNetIncome < 2950) {
+        tax = 87.0;
+    } else if ($taxableNetIncome >= 2950 && $taxableNetIncome < 3000) {
+        tax = 89.0;
+    } else if ($taxableNetIncome >= 3000 && $taxableNetIncome < 150000) {
+        tax = 90.0 + 0.0475 * ($taxableNetIncome - 3000);
+    } else if ($taxableNetIncome >= 150000 && $taxableNetIncome < 175000) {
+        tax = 7072.50 + 0.05 * ($taxableNetIncome - 150000);
+    } else if ($taxableNetIncome >= 175000 && $taxableNetIncome < 225000) {
+        tax = 8322.50 + 0.0525 * ($taxableNetIncome - 175000);
+    } else if ($taxableNetIncome >= 225000 && $taxableNetIncome < 300000) {
+        tax = 10947.50 + 0.055 * ($taxableNetIncome - 225000);
+    } else if ($taxableNetIncome >= 300000) {
+        tax = 15072.50 + 0.0575 * ($taxableNetIncome - 300000);
+    }
+
+    $form.setMarylandTax(tax);
+    update($form);
+end
+```
